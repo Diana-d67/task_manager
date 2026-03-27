@@ -1,6 +1,6 @@
 import json
 import os
-from .models import Task
+from src.models import Task
 
 
 def save_tasks(tasks: list, filename: str):
